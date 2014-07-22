@@ -83,10 +83,6 @@
   margin-top: 50px;
 }
 
-.assinatura {
-  margin-top: 100px;
-}
-
 .pergunta {
   border: 30px solid; 
   border-color: #C74958 #EBEBEB #EBEBEB #DD5162;
@@ -127,6 +123,7 @@
 }
 
 .endereco {
+  margin-top: 30px;
   margin-bottom: 20px;
   font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -156,8 +153,6 @@
 
 .enquantoisso {
   margin-top: 40px;
-  /*border: 30px solid; 
-  border-color: #EBEBEB #FACA42 #EBEBEB #FACA42;*/
   font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
   text-align: center;
 }
@@ -198,10 +193,24 @@
 }
 
 .rodape {
-  margin-top: 30px;
+  margin-top: 10px;
   border: 10px solid; 
   border-color: #EBEBEB #EBEBEB #EBEBEB #EBEBEB;
   font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+}
+
+.botao {
+  margin-top: 30px;
+  display:inline-block; 
+  vertical-align:middle;
+}
+
+.direita {
+  text-align: right;
+}
+
+.esquerda {
+  text-align: left;
 }
 
 .sucesso {
